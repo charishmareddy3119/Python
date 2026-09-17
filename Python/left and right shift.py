@@ -1,0 +1,22 @@
+print(6<<2)
+print(48>>3)
+print(9<<3)
+print(72>>2)
+print(11<<2)
+print(96>>4)
+print(15<<3)
+print(128>>3)
+print(7<<4)
+print(160>>5)
+print(14<<3)
+print(192>>4)
+print(21<<2)
+print(224>>5)
+
+ # W.A.P to print the age 18 above the result will be true otherwise it returns false
+#age=int(input("Enter age:"))
+#print(age>=18) 
+
+print(10+5/(4/2))
+print((10/0)+100)
+print((100/5)-100)
