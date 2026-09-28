@@ -43,7 +43,6 @@
 #          print("Even")
 #      else:
 #          print("Not Even")
-
 # number_value(100, 10)
 
 #Return State ment
@@ -58,6 +57,43 @@
  2.Keyword
  3.Default
  4.Variable-lenth
+
+ 1.Positional args:
+ ----------------------
+ -- These are the arguments passed to function in correct positional order.
+ -- The no.of args and position of args must be matched.
+ If we change the order then the result will changed.
+ If we changed the no.of args then we will get an error.
+
+2.Keyword args:
+-----------------------
+-- We can pass argument values by keyword i.e parameter name.
+-- Here the order of args is not important but number of args must be matched.
+
+Note:
+------
+-- We can use both positional and keyword argument simultaneosly.
+But first we have to take positional arguments then keyword args,
+otherwise we will get error.
+
+3.Default args:
+--------------------
+-- Sometimes we can provide default values for our positional args.
+-- If we are not passing any name then only default value will be considered.
+
+4.Variable-Lenth args:
+------------------------
+-- Sometimes we can pass any no.of args to our function,
+such type of args called as varable lenth of args.
+-- We can declare a varable lenth args with  symbol as:
+    def f1 (n):
+-- We can call this function by passing any no.of args including zero,
+internally all these values represented in the tuple.
+
+-- After variable lengh arg,if we are taking any other args
+then we should provide values as keyword args.
+
+
 '''
 #Positional
 
@@ -99,5 +135,6 @@ def add(*numbers):
     print(sum(numbers))
 
 add(10, 20, 30, 40)
+
 
 
